@@ -21,6 +21,14 @@ body{
     margin: 20px;
     color: red;
 }
+#startknapp {
+    color: blue;
+} 
+#startknappsdiv {
+
+    display: flex;
+    justify-content: center;
+}  
 .hidden {
     display: none;
 
