@@ -22,6 +22,11 @@ function andratal() {
   const hejmattetal= tal1 + "*" + tal2;
   document.getElementById("uppgift").innerText=hejmattetal; 
 }
+function visasak() {
+  document.getElementById("mattetal").setAttribute("class", "");
+  setTimeout(tidenarute,300000)
+  document.getElementById("startknapp").setAttribute("class", "hidden");
+}
 
 
 function talrattare(event) {
@@ -44,4 +49,5 @@ function talrattare(event) {
 
 andratal();
 document.getElementById("svar").addEventListener("keydown",talrattare);
-setTimeout(tidenarute,300000)
+
+document.getElementById("startknapp").addEventListener("click",visasak)
